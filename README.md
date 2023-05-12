@@ -27,7 +27,7 @@ Please note that every field is validated, and the changes you make must meet th
 By following the validation criteria, you can ensure that the data in the application remains accurate and consistent.
 
 
-![alt text](https://ibb.co/S6263NY)
+![alt text](https://cdn.discordapp.com/attachments/1010542840226517083/1106626826886975689/image.png)
 
 ## API endpoints
 To test the API in Visual Studio Code, you can use the ***REST Client*** extension. To do this, follow these steps:
