@@ -2,7 +2,7 @@
 This project is a Docker-based RESTful API for managing people. It provides functionality to create, retrieve, update, and delete person documents.
 
 ## Docker Image
-You can find the Docker image for this project on Docker Hub at the following link: https://hub.docker.com/r/mohamedbekhit/docker-basic-api
+You can find the Docker image for this project on Docker Hub at the following link: https://hub.docker.com/r/mohamedsaedsalah/docker-project-2
 
 ## How to run
 To run the project, follow these steps:
@@ -14,7 +14,7 @@ git clone https://github.com/NOSTVA/Docker-Node-Mongo-Project.git
 ```code
 docker compose up
 ```
-That's it! The application should now be running on http://localhost:8080
+That's it! The application should now be running on http://localhost:4000
 
 ## Running the Docker Application on a Different Port
 By default, the Docker application runs on port 8080. If this port does not work for you, update the port mapping in the docker-compose.yml file to the desired port.
@@ -27,7 +27,7 @@ Please note that every field is validated, and the changes you make must meet th
 By following the validation criteria, you can ensure that the data in the application remains accurate and consistent.
 
 
-![alt text](https://i.ibb.co/KxNCxYy/docker-api.png)
+![alt text](https://ibb.co/S6263NY)
 
 ## API endpoints
 To test the API in Visual Studio Code, you can use the ***REST Client*** extension. To do this, follow these steps:
@@ -59,10 +59,10 @@ POST http://localhost:8080/persons
 content-type: application/json
 
 {
-"name": "Mourad",
-"age": 35,
+"name": "Mohamed",
+"age": 21,
 "gender": "male",
-"email": "mourad@outlook.com"
+"email": "mohamedsaeed204@gmail.com"
 }
 ```
 ### Update Person
@@ -84,4 +84,4 @@ The following technologies were used in the project:
 - Chakra UI: a modular and accessible component library for building React applications with a focus on design system and developer experience
 
 ## Credits
-This project was created by Mohamed Saeed Mohamed.
+This project was created by Mohamed Saeed Salah.
